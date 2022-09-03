@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+body {
+    background: linear-gradient(to top right,#fc2c77 0%,#6c4079 100%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+#box{
+    background-color:white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    
+}
+#box h3 {
+    text-align: left;
+    
+
+}
+#leftside{
+    text-align: left;
+}   
+
+
+.namebox{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    line-height: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#submit{
+    padding: 2px;
+    color: white;
+    background-color: blue;
+    width: 60px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+}
+#selectlast{
+    width:370px;
+
+}
+#scleftside {
+    text-align: left;
+    padding: 10px;
+}
+
+@media(max-width:600px){
+    .namesub{
+     grid-column: span 2;
+    }
+} 
